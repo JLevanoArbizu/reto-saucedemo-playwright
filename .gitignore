@@ -1,0 +1,23 @@
+# Dependencias de Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Reportes y resultados de Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Variables de entorno (Seguridad)
+.env
+
+# Configuraciones de IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de Sistema Operativo
+.DS_Store
+Thumbs.db

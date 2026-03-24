@@ -9,7 +9,7 @@ Given('que el usuario {string} ha iniciado sesion', async function (user) {
     this.loginPage = new LoginPage(this.page);
     this.inventoryPage = new InventoryPage(this.page);
     await this.loginPage.navigate();
-    await this.loginPage.login(user, 'secret_sauce'); // Credenciales según requerimiento [cite: 74]
+    await this.loginPage.login(user, 'secret_sauce'); 
 });
 
 When('agrega el producto {string} al carrito', async function (productName) {

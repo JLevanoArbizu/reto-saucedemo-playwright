@@ -4,10 +4,12 @@ import { Given, When, Then } from '@cucumber/cucumber';
 import { expect } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
 
+
 Given('que el usuario navega a la pagina de inicio de sesion', async function () {
     this.loginPage = new LoginPage(this.page);
     await this.loginPage.navigate();
 });
+
 
 When('ingresa el usuario {string} y la contraseña {string}', async function (user, pass) {
     await this.loginPage.login(user, pass);

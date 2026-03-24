@@ -1,4 +1,4 @@
-@@Shopping @SauceDemo @E2E  
+@Shopping @SauceDemo @E2E  
 Feature: Flujo de compra en Sauce Demo
 
   Como un cliente de Sauce Demo, 

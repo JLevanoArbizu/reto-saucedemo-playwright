@@ -22,8 +22,10 @@ Asegúrate de tener instalado lo siguiente en tu entorno local antes de ejecutar
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone (https://github.com/TU_USUARIO/reto-saucedemo-playwright.git)
-   cd reto-saucedemo-playwright
+   git clone https://github.com/JLevanoArbizu/reto-saucedemo-playwright.git
+   ```
+   ```bash
+     cd reto-saucedemo-playwright
    ```
 
 2. **Instalar las dependencias del proyecto:**
